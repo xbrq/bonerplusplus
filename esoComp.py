@@ -81,7 +81,10 @@ swap = {
             'balls' : 'list',
             'jeb' : 'open',
             'femboy' : 'join',
-            'epyc' : 'file'
+            'epyc' : 'file',
+            'skeet' : 'split',
+            'goof' : 'append',
+            'cock' : 'run'
 }
 
 new = code
