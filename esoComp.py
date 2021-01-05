@@ -76,7 +76,12 @@ swap = {
             'privilege' : 'super',
             'dino' : 'tuple',
             'rshig' : 'zip',
-            'racism' : 'type'
+            'racism' : 'type',
+            'dong' : 'len',
+            'balls' : 'list',
+            'jeb' : 'open',
+            'femboy' : 'join',
+            'epyc' : 'file'
 }
 
 new = code
