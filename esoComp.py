@@ -84,7 +84,11 @@ swap = {
             'epyc' : 'file',
             'skeet' : 'split',
             'goof' : 'append',
-            'cock' : 'run'
+            'cock' : 'run',
+            'cumburger' : '[]',
+            'eburger' : '\'\'',
+            'shart' : 'message',
+            'sprite' : 'event'
 }
 
 new = code
