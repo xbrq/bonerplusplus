@@ -7,7 +7,7 @@ import sys
 
 filename = sys.argv[1]
 
-f = open(filename + '.me', 'r', encoding = 'utf-8')
+f = open(filename + '.py', 'r', encoding='utf-8')
 
 code = f.read()
 
@@ -91,17 +91,15 @@ swap = {
             'sprite' : 'event'
 }
 
+swap = dict(zip(swap.values(),swap.keys()))
+
 new = code
 
 for item in swap: new = new.replace(item, swap[item])
 
+f.close()
+
 # now we just have regular python code
 
-exec('# -*- coding: utf-8 -*-\n' + new)
-
-
-
-
-            
-            
-  
+with open(filename + '.me', 'w+', encoding='utf-8') as f:
+    f.write('# -*- coding: utf-8 -*-\n' + new)
