@@ -7,7 +7,7 @@ import sys
 
 filename = sys.argv[1]
 
-f = open(filename + '.me', 'r')
+f = open(filename + '.me', 'r', encoding = 'utf-8')
 
 code = f.read()
 
